@@ -6,7 +6,7 @@ function chechBox(){
     // console.log(windowHeigth);
     boxes.forEach(box =>{
         const boxTop = box.getBoundingClientRect().top
-        // console.log(boxTop);
+        console.log(boxTop);
         if(boxTop < windowHeigth){
             box.classList.add('show');
         }
